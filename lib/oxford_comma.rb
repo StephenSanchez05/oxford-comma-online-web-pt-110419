@@ -4,7 +4,8 @@ def oxford_comma(array)
   elsif array.size == 3
   array.pop
   array.join(", ")
-  
+  array << " and starfruit"
+else
  array.join
 end
 end
