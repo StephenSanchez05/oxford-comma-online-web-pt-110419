@@ -5,6 +5,10 @@ def oxford_comma(array)
   array.pop
   new_array = array.join(", ")
   new_array << ", and starfruit"
+  elsif array.size == 5
+  array.pop
+  five_array = array.join(", ")
+  five_array << ", and dragon fruits"
 else
  array.join
 end
